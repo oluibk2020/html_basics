@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our First Coding Page</title>
+    <style>
+        h5{
+            color: blue;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading One Is Great</h1>
+    <h2 id="headingTwo">Heading Two</h2>
+    <h3 style="color: red; font-size: 14px;">Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <h5>This is a heading</h5>
+
+    <p>This is a paragraph hduebe dhdujdbe euens sjwjww hdsksn Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Iusto sunt esse doloribus accusantium saepe cumque illum temporibus laborum. Aperiam tenetur expedita necessitatibus commodi rem laudantium magnam consequuntur impedit at quam, vero placeat reprehenderit non quia, iusto ipsum voluptas, reiciendis quo eligendi itaque iste odit eius atque. Aliquid inventore voluptatum natus. Lorem ipsum dolor sit amet.</p>
+
+    <p> Copyright &#169; 2024 CharisIntelligence | Terms Of Service</p>
+
+    <a href="./about.html">Learn more</a>
+    <br> <br>
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+
+    <br>
+    <a href="./images/coffee.jpeg" download>Download Coffee image</a>
+    <br>
+    <a href="mailto:hello@charisintelligence.com.ng">Send us a mail now</a>
+    <br>
+    <a href="tel:+2348137730189">Call us now</a>
+    <br>
+    <a href="#headingTwo">Go back to heading Two</a>
+    <br>
+    <div id="images">
+
+        <img src="./images/pokemon.jpg" alt="pokemon image">
+        <img src="https://images.secretlab.co/theme/common/collab_pokemon_catalog_charizard-min.png" alt="dragon image">
+    </div>
+    <div id="media">
+
+        <video src="./videos/rainfall.mp4" controls muted autoplay></video>
+        <audio src="./audio/sermon background.mp3" controls></audio>
+    </div>
+    <div id="paragraphs">
+
+        <p>Lorem ipsum dolor sit amet <em>consectetur</em> adipisicing elit. Praesentium neque <strong>I am bold</strong> expedita similique quisquam voluptatibus rerum <span id="special">reiciendis</span> ipsa unde ex adipisci!</p>
+        <p>The chemical formular for water is H <sub>2</sub> O</p>
+        <p>Albert Eisten formular is E = mc<sup>2</sup> </p>
+        <p>please review the <ins>updated</ins> document</p>
+        <p>please note the <del>deleted</del> document in the drive</p>
+    </div>
+
+    <h3>List of Fruits in Order</h3>
+    <ol>
+        <li>apple</li>
+        <li>banana</li>
+        <li>orange</li>
+        <li>pineapple</li>
+        <li>grape</li>
+    </ol>
+
+    <h3>List of Tech Companies not in any order</h3>
+    <ul>
+        <li>CharisIntelligence</li>
+        <li>Google</li>
+        <li>Facebook</li>
+        <li>Amazon</li>
+        <li>Microsoft</li>
+        <li>Apple</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Dominic</td>
+                <td>88,100</td>
+                <td>dcode</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sally</td>
+                <td>72,100</td>
+                <td>students</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nick</td>
+                <td>52,100</td>
+                <td>dcode</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td>Our table for 2024 - 2030</td>
+            </tr>
+        </tfoot>
+    </table>
+
+<!-- working with forms -->
+    <form name="contact" autocomplete="off">
+        <div>
+
+            <label for="fullName"> Full Name</label>  <input type="text" name="fullName" placeholder="Enter your full name" id="fullName" maxlength="10"> 
+        </div>
+      <!-- <br> -->
+      <label for="email">Email</label> <input type="email" name="email" id="email" placeholder="Enter your email" required>
+      <br>
+      <label for="password">Password</label> <input type="password" name="password" id="password" required>
+      <br>
+      <label for="age">Age</label> <input type="number" name="age" id="age" min="18" max="100">
+      <br>
+      <input type="checkbox" name="newsletter" value="1" id="newsletter" checked> Subscribe to newsletter
+      <br>
+      <input type="radio" name="gender" value="male" id="gender" checked> Male
+      <input type="radio" name="gender" value="female" id="gender"> Female
+      <br>
+      <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+      <br>
+      <p>Select a/some countries for your next vacation!</p>
+      <select name="country" id="country" multiple>
+        <option value="nigeria">Nigeria</option>
+        <option value="ghana">Ghana</option>
+        <option value="togo">Togo</option>
+        <option value="benin">Benin</option>
+        <option value="niger">Niger</option>
+      </select>
+      <br>
+      <label for="avatar">Upload your Avatar</label>
+      <input type="file" name="avatar" id="avatar" accept="image/png, image/jpeg, image/jpg">
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

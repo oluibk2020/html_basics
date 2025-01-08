@@ -1,0 +1,100 @@
+h3{
+    color: red;
+    background-color: blue;
+}
+/* p{
+    color: green;
+    background-color: black;
+} */
+#paragraphOne{
+    color: blue;
+    background-color: red;
+}
+.paragraph{
+    color: red;
+    background-color: black;
+    font-size: 24px;
+}
+.container p{
+    color:white;
+    background-color: black;
+}
+
+.container :first-child{
+    background-color: purple;
+    color: white;
+}
+
+.containerTwo li:nth-child(odd){
+    background-color: green;
+    color: black;
+}
+.containerTwo li:nth-child(even){
+    background-color: yellow;
+    color: red;
+}
+.link:hover{
+    background-color: red;
+    color: white;
+}
+.box{
+    /* border: 4px dotted red; */
+    border: 4px solid red;
+    /* padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px; */
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40vh;
+    width: 70vw;
+    /* border-radius: 100%; */
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.innerBox{
+    border: 4px solid green;
+    height: 100%;
+    font-size: 1em;
+}
+.blockElement{
+    display: block;
+    border: 4px solid black;
+    height: 120px;
+    overflow: auto;
+    /* width: 120px; */
+}
+.inlineElement{
+    display: inline;
+    text-decoration: underline;
+}
+.boxOne{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+.boxTest{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 50px;
+    top: 20px
+}
+.boxAbsolute{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+.boxFixed{
+    position: fixed;
+    border: 2px solid black;
+    background-color: yellow;
+    top: 250px;
+    left: 700px;
+}
